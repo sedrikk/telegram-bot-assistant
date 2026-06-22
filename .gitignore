@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.db
+*.db-shm
+*.db-wal
+github_token.txt
+upload_to_github.ps1
