@@ -1,0 +1,30 @@
+{
+  "name": "telegram-bot-assistant",
+  "version": "1.0.0",
+  "description": "A smart Telegram Bot that analyzes thoughts, projects, and schedules reminders using Gemini.",
+  "main": "dist/bot.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot.js",
+    "dev": "ts-node src/bot.ts",
+    "test:local": "ts-node src/test-local.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "better-sqlite3": "^11.0.0",
+    "chrono-node": "^2.7.6",
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/node": "^20.14.2",
+    "@types/node-schedule": "^2.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
